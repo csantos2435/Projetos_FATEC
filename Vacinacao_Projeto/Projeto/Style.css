@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+body{
+    align-items: center;
+    background-image: url(imagem/pexels-cottonbro-3952241.jpg);
+}
+h1{
+    font-family: Port 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    text-align: center;
+    padding-top: 200px;
+    color: rgb(2, 137, 2);  
+}
+.campo{
+    width: 62%;
+}
+.col{
+    padding-left: 60%;
+    padding-top: 3%;
+}
+.Entrar{
+    padding-left: 75%;
+    padding-top: 3%;
+    color: aliceblue;
+    list-style: none;
+    position: relative;
+   
+}
+
+#link{
+    padding-left: 74%;
+    padding-top: 1%;
+    position: relative;
+}
+
+
+
+         

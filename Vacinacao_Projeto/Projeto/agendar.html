@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento</title>
+    <link rel="stylesheet" href="agendar.css">
+    
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-12">
+          <form action="index.html" method="post">
+            <h1> Agendamento </h1>
+            
+            <fieldset>
+              
+              <legend><span class="number">!</span> Todos os campos são obrigatorios</legend>
+            
+              <label for="name">CPF do paciente:</label>
+              <input type="text" id="name" name="user_name">
+    
+
+              <div class="date">
+                <input type="date"  id="#datepicker"/>
+              </div>
+
+              <input type="time" value="13:30"/>
+             
+            <button type="submit">Confirmar</button>
+           </form>
+            </div>
+          </div>
+         
+         
+</body>
+<script>
+    $( function() {
+         $( "#datepicker" ).datepicker({
+             dateFormat: "dd-mm-yy"
+           ,	duration: "fast"
+        });
+    } );
+
+</script>
+
+</html>

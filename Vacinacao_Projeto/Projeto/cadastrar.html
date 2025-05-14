@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do paciente</title>
+    <link rel="stylesheet" href="cadastrar.css">
+</head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form action="index.html" method="post">
+        <h1> Cadastro do paciente </h1>
+        
+        <fieldset>
+          
+          <legend><span class="number">!</span> Todos os campos são obrigatorios</legend>
+        
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="user_name">
+
+          <label for="name">CPF:</label>
+          <input type="text" id="cpf" name="CPF">
+
+          <label for="name">Celular:</label>
+          <input type="text" id="celular" name="numero">
+
+          <label for="name">Data de nascimento:</label>
+          <input type="text" id="nascimento" name="numero">
+
+          <label for="name">Sexo:</label>
+              <input type="radio" id="under_13" value="under_13" name="user_age"><label for="under_13" class="light">Ferminino</label><br>
+              <input type="radio" id="over_13" value="over_13" name="user_age"><label for="over_13" class="light">Masculino</label>
+              <br>
+              <br>
+
+          <label for="name">Cidade:</label>
+          <input type="text" id="cidade" name="numero">
+
+          <label for="name">CEP:</label>
+          <input type="text" id="cep" name="cep">
+        
+          <label for="name">Número:</label>
+          <input type="text" id="Numero" name="numero">
+       
+        </fieldset>
+        <div class="Button">
+          <a  class= "button" href="prontuario.html">
+            <button type="submit">Confirmar</button>
+          </a>
+
+        </div>
+       
+        
+        
+       </form>
+        </div>
+      </div>
+</body>
+</html>
