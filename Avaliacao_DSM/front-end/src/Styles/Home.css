@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lettering&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.square {
+  width: 1000px;
+  height: 500px;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2; /* Define a ordem de empilhamento para 2 */
+}
+
+.square p {
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+.welcome {
+  position: absolute;
+  font-family: 'Dancing Script', cursive;
+  font-size: 150px;
+  color: white;
+  top: 20%; /* Mova o elemento 20 pixels para cima */
+  text-align: center; /* Centralize horizontalmente */
+  padding-top: 110px;
+}
+
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .squareblack {
+    right: auto;
+    left: 10%;
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
