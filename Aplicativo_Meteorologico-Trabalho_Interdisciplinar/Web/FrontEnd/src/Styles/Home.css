@@ -1,0 +1,261 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 230vh;
+  background: linear-gradient(#2947b6, rgba(132, 150, 248, 0.834));
+}
+
+.centered-square {
+  width: 950px;
+  height: 850px;
+  background-color: rgba(245, 237, 237, 0.363);
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.custom-button {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0d0e0e;
+  padding: 10px 50px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+  
+  .centered-square {
+    width: 95%;
+    height: 840px;
+    background-color: rgba(245, 237, 237, 0.363);
+    margin: auto;
+    position: absolute;
+    top: 300px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  
+
+  .custom-button {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0d0e0e;
+    padding: 10px 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    top: -50px;
+    margin:0;
+    right: -550px;
+  }
+  
+  .visible-content {
+    display: block;
+    
+  }
+  
+  .hidden-content {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(132, 150, 248, 0.834);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.3s ease-in-out;
+  }
+  .custom-button:hover .hidden-content {
+    left: 0;
+  }
+  
+  .city-info {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 25px;
+    left: -150px;
+  }
+  
+  .location-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .weather-section {
+    font-size: 250px;
+    margin-top: 10px;
+    margin-left: -230px;
+  }
+  
+  .location-icon {
+    margin-right: 5px;
+    font-size: 30px;
+    left: -305px;
+    position: relative;
+    top: 4px;
+  }
+  
+  .city-name {
+    font-size: 30px;
+    margin: 0;
+    left: -300px;
+    position: relative;
+    top: 5px;
+  }
+  
+  .horizontal-line {
+    position: absolute;
+    width: 95%;
+    height: 2px;
+    background-color: #000;
+    bottom: 30;
+    top: 55px;
+    left: 170px;
+  }
+  
+  .new-line {
+    position: absolute;
+    width: 95%;
+    height: 2px;
+    background-color: #000;
+    bottom: 250px;
+    left: 170px;
+  }
+  
+  .temperature {
+    font-size: 270px;
+    margin-right: -650px;
+    margin-top: -300px;
+  }
+
+  .tempetarure-max-min{
+    font-size: 30px;
+    margin-right: -500px;
+    padding-top: 410px;
+    position: absolute;
+  }
+  
+  .weather-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 110px;
+    left: 20px;
+  }
+  
+  .weather-detail {
+    text-align: center;
+    margin-top: -300px;
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+    left: 80px;
+  }
+
+  .line{
+    position: absolute;
+    width: 95%;
+    height: 2px;
+    background-color: #000;
+    bottom: 100px;
+    left: 170px;
+    z-index: 1;
+  }
+  
+  .weather-icon {
+    font-size: 64px;
+    margin-top: -80px; /* Ajuste conforme necessário */
+    padding: 15px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .justify-content-around.mb-4.pb-3.pt-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -80px;
+    font-size: 16px;
+  }
+
+   .graph {
+    background-color: rgba(255, 255, 255, 0.562);
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+    border-radius: 10px;
+    width: 415px;
+    height:350px;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    position: relative;
+    bottom: -370px;
+   }
+   
+   .last-graph {
+    margin-right: 1;
+   }
+
+   .graph-title {
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: #000;
+    z-index: 1;
+   }
+      
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #000;
+  }
+
+  .rain-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Adapte a cor de fundo conforme necessário */
+    z-index: 1000;
+  }
+  
+  .rain-drop {
+    color: #4286f4; /* Cor da chuva */
+    font-size: 200px; /* Tamanho das gotas de chuva */
+    animation: fall linear infinite;
+  }
+  
+  @keyframes fall {
+    to {
+      transform: translateY(100vh);
+    }
+  }
+  
+ 

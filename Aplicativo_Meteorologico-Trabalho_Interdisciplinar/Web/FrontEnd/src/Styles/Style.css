@@ -1,0 +1,54 @@
+.App {
+    background: linear-gradient(#2947b6, rgba(132, 150, 248, 0.834)) ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   
+   .LoginScreen {
+    background-color: #f8f8f8;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    
+   }
+   
+   
+   .LoginScreen h1 {
+    margin-bottom: 30px;
+    font-size: 45px;
+   }
+   
+   .LoginScreen input {
+    width: 94%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+   }
+   
+   .LoginScreen button {
+    width: 100%;
+    padding: 14px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 19px;
+
+   }
+   
+   .LoginScreen button:hover {
+    background-color: #555555bd;
+    text-decoration: none;
+   }
+  
+   .LinkWithoutUnderline {
+    text-decoration: none;
+    color: inherit; /* Para herdar a cor do texto do pai */
+  }

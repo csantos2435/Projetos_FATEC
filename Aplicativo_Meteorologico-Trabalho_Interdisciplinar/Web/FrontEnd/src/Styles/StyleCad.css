@@ -1,0 +1,48 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+   }
+   
+   .form-container {
+    background-color: #f8f8f8;
+    padding: 60px;
+    border-radius: 10px;
+    width: 400px;
+   }
+   
+   input {
+    width: 94%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+   }
+   
+   .btn-cadastrar {
+    width: 100%;
+    padding: 14px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    align-items: center;
+    font-size: 19px;
+    
+   }
+   
+   .btn-cadastrar:hover {
+    background-color: #555555bd;
+   }
+
+   h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+   }
+
+   

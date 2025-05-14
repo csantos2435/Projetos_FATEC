@@ -1,0 +1,64 @@
+.pesqui{
+    height: 150vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(#2947b6, rgba(132, 150, 248, 0.834)) ;
+    position: fixed;
+}
+
+.search-box {
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #000;
+    height: 30px;
+    padding: 20px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    position: relative;
+    top: 180px;
+    align-items: center;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 28px;
+    width: 0;
+    transition: .5s;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.search-bnt{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 8px;
+    transition: .5s;
+}
+
+.search-box:hover > .search-txt{
+    width: 840px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-bnt {
+    background: #000;
+}
