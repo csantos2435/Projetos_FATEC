@@ -1,0 +1,5 @@
+Documento: Funcionario; Cliente; Disponivel; Serviço; Agendamento.
+
+Subdocumento: Funcionario(De Agendamento); Cliente(De Agendamento); Disponivel(De Serviço); Serviço(De Agendamento)
+
+populate: Serviço; Agendamento; 

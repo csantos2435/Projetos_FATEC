@@ -1,0 +1,107 @@
+.SeleF{
+    position: absolute;
+    width: 1000px;
+    right: 100px;
+    top: 70px;
+    left: 36px;
+}
+.SeleC{
+    position: absolute;
+    width: 1000px;
+    right: 100px;
+    top:   160px;
+    left: 36px;
+}
+
+.SeleS{
+    position: absolute;
+    width: 450px;
+    right: 100px;
+    top: 260px;
+    left: 36px;
+}
+
+.SeleO{
+  position: absolute;
+  width: 450px;
+  right: 100px;
+  top: 360px;
+  left: 36px;
+}
+
+#Cadastrar4{
+    position: absolute;
+    top: 400px;
+    left: 733px;
+    width: 15%;
+    height: 8%;
+    font-size: 20px;
+}
+
+#botaoH{
+    position: absolute;
+    width: 450px;
+    right: 100px;
+    top: 292px;
+    left: 490px;
+    height: 40px;
+}
+
+.modal-overlay2 {
+    position: fixed;
+    top: 100px;
+    left: 400px;
+    width: 650px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6e4dbf7;
+    border-radius: 5px;
+  }
+  
+  .modal-content2 {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: #bf4141;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  #lista{
+    position: absolute;
+    left: 26px;
+    top: 90px;
+  }
+
+  #lista2{
+    position: absolute;
+    left: 256px;
+    top: 90px;
+  }
+
+  #SelecioneH{
+    position: absolute;
+    width: 570px;
+    top: 100px;
+    left: 16px;
+  }
+
+  #SelecioneD{
+    position: absolute;
+    width: 570px;
+    top: 170px;
+    left: 16px;
+  }
+  
+  #fechar2{
+    position: absolute;
+    left: 299px;
+    top:250px;
+    height:40px;
+    width: 200px;
+    background-color: #ffff;
+  
+  }

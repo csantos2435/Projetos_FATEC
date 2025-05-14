@@ -1,0 +1,117 @@
+.cor-login{
+    background-color: #000000;
+    min-height: 100vh;
+}
+.rectangle2 {
+    position: absolute;
+    width: 412px;
+    height: 358px;
+    background: #630000;
+    border-radius: 10px;
+    right: 42%;
+    top: 15%;
+}
+  
+.rectangle7 {
+    position: absolute;
+    width: 412px;
+    height: 358px;
+    background: #EEEBDD;
+    border-radius: 10px;
+    right: 38%;
+    top: 24%;
+}
+ 
+  
+.rectangle3 {
+    position: absolute;
+    width: 412px;
+    height: 358px;
+    background: #D8B6A4;
+    border-radius: 10px;
+    right: 40%;
+    top: 20%;
+}
+  
+.login {
+    position: absolute;
+    width: 136px;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 10;
+    font-size: 280%;
+    color: #1E1E1E;
+    right: 35%;
+    top: 10%;
+}
+  
+#password {
+    position: absolute;
+    width: 70%;
+    height: 8%;
+    top: 50%;
+    right: 15%;
+    border-radius: 5px;
+}
+  
+#new-registration {
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #1E1E1E;
+    right: 18%;
+    top: 82%;
+    margin-right: 55px
+}    
+
+.Scads{
+    position: absolute;
+    right: 52%;
+    top: 82%;
+}
+        
+  
+  
+#email{
+    position: absolute;
+    width: 70%;
+    height: 8%;
+    top: 35%;
+    right: 15%;
+    border-radius: 5px;
+  
+}
+  
+#entrar{
+    position: absolute;
+    right: 15%;
+    top: 65%;
+    width: 70%;
+    height: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #1E1E1E;
+    background-color: #EEEBDD;
+    
+  
+  
+}
+input ::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+.nav-link{
+    text-decoration: none;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lettering&display=swap');
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.square {
+  width: 1000px;
+  height: 500px;
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2; /* Define a ordem de empilhamento para 2 */
+}
+
+.squarelines {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border: 2px solid #630000; /*border: 2px solid #630000*/
+  background-color: black;
+  margin-bottom: 20px;
+  z-index: 0; /* Define a ordem de empilhamento para 0 */
+  left: 25%; /* Posiciona no lado esquerdo */
+  top: 5%;
+}
+
+.square p {
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+.welcome {
+  position: absolute;
+  font-family: 'Dancing Script', cursive;
+  font-size: 150px;
+  color: white;
+  text-align: center; /* Centralize horizontalmente */
+}
+
+.squareblack {
+  width: 600px;
+  height: 600px;
+  border: 2px solid #EEEBDD;
+  background-color: black;
+  margin-bottom: 20px;
+  position: absolute;
+  right: 25%;
+  top: 15%;
+  z-index: 1; /* Define a ordem de empilhamento para 1 */
+}
+
+.button {
+  display: inline-block;
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 15px 50px; /* Aumente o preenchimento do botão */
+  border: 2px solid white;
+  border-radius: 0px;
+  font-size: 34px; /* Aumente o tamanho da fonte para 34px */
+  text-decoration: none;
+  margin-top: 90px; /* Aumente o espaçamento superior para 90px */
+  top: 45%;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .squareblack {
+    right: auto;
+    left: 10%;
+    top: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
