@@ -1,0 +1,15 @@
+.App {
+  display: flex; 
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 220;
+  margin-block-end: 30px;
+  margin-block-start: 10px;
+}
+
+.linha {
+  display: flex;
+}

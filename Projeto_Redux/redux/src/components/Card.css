@@ -1,0 +1,41 @@
+.Card {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    margin: 5px;
+    font-size: 26px;
+}
+
+.Card .Header {
+    display: flex;
+    justify-content: center;
+}
+
+.Card .Header .Title {
+    flex: 1;
+    padding: 4px;
+}
+
+.Card .Content {
+    padding: 10px; 
+}
+
+.Card .Recesso {
+    padding: 30px;
+    font-size: 32px;
+}
+
+.Card.Red .Header { color: #FFF; background-color: #f54142;}
+.Card.Red .Content { background-color: #fe0000;}
+
+.Card.Blue .Header { color: #FFF; background-color: #044041;}
+.Card.Blue .Content { background-color: #4336f5;}
+
+.Card.Yellow .Header { color: #FFF; background-color: #9a8eda;}
+.Card.Yellow .Content { background-color: #c1b515;}
+
+.Card.Pink .Header { color: #FFF; background-color: #ab27c6;}
+.Card.Pink .Content { background-color: #b8659d;}
+
+.Card.Green .Header { color: #FFF; background-color: #4cb050;}
+.Card.Green .Content { background-color: #2e7d77;}
