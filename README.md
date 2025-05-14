@@ -1,2 +1,2 @@
-# Projetos_FATEC
-Projetos desenvolvidos durante o curso de DSM - Desenvolvimento de Software e Multiplataforma
+# Projetos Desenvolvidos durante o Curso de DSM - Desenvolvimento de Software Multiplataforma
+Este repositório reúne uma coleção representativa de projetos acadêmicos desenvolvidos ao longo do curso de Desenvolvimento de Software Multiplataforma (DSM). Cada projeto aqui apresentado reflete uma etapa significativa do processo de aprendizado, cobrindo desde os fundamentos da programação até o desenvolvimento de aplicações completas, escaláveis e adaptáveis a diferentes plataformas e ambientes.
